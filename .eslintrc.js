@@ -14,6 +14,7 @@ module.exports = {
     SharedArrayBuffer: 'readonly',
     __DEV__: 'readonly',
   },
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -34,5 +35,6 @@ module.exports = {
     'no-unused-vars': 1,
     'no-param-reassign': 0,
     'no-console': 0,
+    'jsx-a11y/control-has-associated-label': 0,
   },
 };
