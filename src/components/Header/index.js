@@ -26,6 +26,10 @@ function Header({ cartSize }) {
   );
 }
 
-export default connect((state) => ({
+Header.propTypes = {
+  cartSize: PropTypes.number.isRequired,
+};
+
+export default connect(state => ({
   cartSize: state.cart.length,
 }))(Header);

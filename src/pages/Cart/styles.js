@@ -40,19 +40,16 @@ export const ProductTable = styled.table`
     color: #999;
     text-align: center;
     padding: 12px;
-  }
-
-  .products {
-    strong,
-    span {
-      text-align: center;
-    }
+    padding-top: 0;
   }
 
   tbody td {
-    padding: 12px;
     border-bottom: 1px solid #eee;
     padding-bottom: 20px;
+
+    & + td {
+      padding: 12px;
+    }
 
     img {
       height: 100px;
@@ -60,10 +57,26 @@ export const ProductTable = styled.table`
     }
 
     span {
-      display: block;
       margin-top: 5px;
       font-size: 16px;
       font-weight: bold;
+    }
+    p {
+      font-size: 11px;
+      line-height: 16px;
+      text-align: left;
+    }
+    span,
+    p {
+      padding: 0 20px;
+      display: block;
+      padding-left: 20px;
+    }
+
+    strong {
+      width: 100%;
+      text-align: right;
+      padding: 0;
     }
   }
 
@@ -71,19 +84,18 @@ export const ProductTable = styled.table`
     display: flex;
     justify-content: center;
 
+    button {
+      margin-top: 4px;
+    }
+
     input {
-      margin: auto;
-      display: flex;
       width: 50px;
+      margin: auto 0;
       padding: 2px 6px;
       border: 1px solid #ddd;
       border-radius: 4px;
       color: #666;
       text-align: right;
-    }
-
-    button {
-      margin-top: 4px;
     }
   }
 

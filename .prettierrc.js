@@ -3,4 +3,5 @@ module.exports = {
   printWidth: 60,
   trailingComma: 'es5',
   bracketSpacing: true,
+  arrowParens: 'avoid',
 };
