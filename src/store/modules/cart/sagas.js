@@ -21,7 +21,7 @@ import {
 import { formatPrice } from '../../../util/format';
 
 function* addToCart({ id }) {
-  //* '*' in "function*" is the "generator" functionality - for now, means function is async
+  //* "function*" -> function "generator" functionality - for now, means function is async
 
   const productInCart = yield select(state =>
     state.cart.find(p => p.id === id)
