@@ -62,5 +62,51 @@
       "price": 179.9,
       "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
     }
+  ],
+  "sellers": [
+    {
+      "id": 1,
+      "name": "Gabriel Paiva",
+      "expertises": ["Social", "Casual", "Masculino"]
+    },
+    {
+      "id": 2,
+      "name": "Carlos Tavares",
+      "expertises": [
+        "Corrida",
+        "Academia",
+        "Masculino",
+        "Feminino"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Francisco Martin",
+      "expertises": ["Social", "Feminino", "Masculino"]
+    },
+    {
+      "id": 4,
+      "name": "Aline Cruz",
+      "expertises": ["Social", "Casual", "Feminino"]
+    },
+    {
+      "id": 5,
+      "name": "Natasha Alves",
+      "expertises": ["Crossfit", "Corrida", "Feminino"]
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Bruna Muniz de Andrade",
+      "email": "bandrade@gmail.com",
+      "password": 123456
+    },
+    {
+      "id": 2,
+      "name": "Elaine Lima Paiva",
+      "email": "elapaiva@gmail.com",
+      "password": 123456
+    }
   ]
 }

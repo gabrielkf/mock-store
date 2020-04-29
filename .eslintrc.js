@@ -36,5 +36,6 @@ module.exports = {
     'no-param-reassign': 0,
     'no-console': 0,
     'jsx-a11y/control-has-associated-label': 0,
+    'react/prefer-stateless-function': 0,
   },
 };
